@@ -1,4 +1,4 @@
-#!/usr/bin/env -s perl -T
+#!/usr/bin/env -S perl -T
 # SPDX-License-Identifier: BSD-3-Clause
 # (c) 2020, Konstantin Demin
 
