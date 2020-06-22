@@ -1,4 +1,3 @@
-- add README (:
 - add interactive help (e.g. '--help' option)
 - verify code again
 - replace Text::Glob with own implementation
