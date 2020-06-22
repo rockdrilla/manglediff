@@ -1944,9 +1944,9 @@ Getopt::Long::GetOptions(
 
 	's|strip:i'          => sub { die "negative value in '$_[0]'.\n" if ( $_[1] < 0);
 	                              $Krd::NameMangle::strip_length = $_[1]; },
-	'n|no-strip|nostrip' => sub { $Krd::NameMangle::strip_length = 0; },
+	'n|no-strip'         => sub { $Krd::NameMangle::strip_length = 0; },
 
-	'Z|in-place|inplace' => sub { $Krd::DiffFile::do_inplace = 1; },
+	'Z|in-place'         => sub { $Krd::DiffFile::do_inplace = 1; },
 
 	'C|strip-comments'   => sub { $Krd::DiffFile::strip_comments = 1; },
 	'N|strip-new'        => sub { $Krd::DiffFile::strip_new      = 1; },
