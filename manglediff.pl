@@ -1,6 +1,6 @@
 #!/usr/bin/env -S perl -T
 # SPDX-License-Identifier: BSD-3-Clause
-# (c) 2020, Konstantin Demin
+# (c) 2020-2021, Konstantin Demin
 
 require 5.28.0;
 
